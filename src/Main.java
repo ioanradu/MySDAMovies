@@ -4,10 +4,16 @@ public class Main {
         MyMoviesCollection myMoviesCollection = new MyMoviesCollection();
         myMoviesCollection.readMoviesFromFile(moviesPath);
         myMoviesCollection.showMovies();
+        System.out.println();
+
         myMoviesCollection.sortMoviesByYear();
         myMoviesCollection.showMovies();
+        System.out.println();
+
         myMoviesCollection.sortMoviesByScore();
         myMoviesCollection.showMovies();
+        System.out.println();
+
         myMoviesCollection.sortMoviesByDuration();
         myMoviesCollection.showMovies();
 
